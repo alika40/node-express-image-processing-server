@@ -374,7 +374,7 @@ describe('module 4', () => {
     });
   });
 
-  context('router.js', async () => {
+  /*context('router.js', async () => {
     const directory = path.resolve(__dirname + '../../../api/uploads');
 
     it('should add a call to imageProcessor passing in the image in our post request @invoke-the-image-processor', async () => {
@@ -396,7 +396,7 @@ describe('module 4', () => {
       expect(files.includes('resized-ullr.png'), 'Did you call `imageProcessor()` inside the `\'/upload\'` route?').to.be.true;
       expect(files.includes('monochrome-ullr.png'), 'Did you call `imageProcessor()` inside the `\'/upload\'` route?').to.be.true;
     });
-  });
+  });*/
 
   context('photo-viewer.html', () => {
     let images;
